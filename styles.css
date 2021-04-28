@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Almarai', sans-serif;
+    text-align: right;
+    font-size: 16pt;
+    background-color: lightblue;
+}
+
+.nav{
+    overflow: hidden;
+}
+
+.nav a{
+    text-decoration: none;
+    padding: 14px 18px;
+    font-size: 20pt;
+    color: black;
+}
+
+.nav a:hover{
+    background-color: rgb(125, 57, 204);
+}
+
+#logo {
+
+}
+
+.paragraph {
+    height: 800px;
+    width: auto;
+    background-image: url('images/World_Scout_Movement.png');
+}
+
+.test{
+  width: 100px
+  border: 1px solid red
+}
