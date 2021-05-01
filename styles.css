@@ -12,18 +12,24 @@ body {
     background-color: lightblue;
 }
 
-.nav{
+nav{
     overflow: hidden;
+    padding: 5px 250px;
+    background-color: cadetblue;
+    position: absolute;
+    left: 250px;
+    opacity: 0.75;
 }
 
-.nav a{
+nav a{
     text-decoration: none;
+    position: relative;
     padding: 14px 18px;
     font-size: 20pt;
     color: black;
 }
 
-.nav a:hover{
+nav a:hover{
     background-color: rgb(125, 57, 204);
 }
 
@@ -32,12 +38,12 @@ body {
 }
 
 .paragraph {
+    /*
     height: 800px;
     width: auto;
     background-image: url('images/World_Scout_Movement.png');
-}
-
-.test{
-  width: 100px;
-  border: 1px solid red;
+    */
+    position: relative;
+    top: 80px;
+    right: 20px;
 }
