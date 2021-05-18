@@ -14,19 +14,18 @@ body {
 
 nav{
     overflow: hidden;
-    padding: 5px 250px;
-    background-color: cadetblue;
-    position: absolute;
-    left: 250px;
+    width: 462px;
+    margin-left: auto;
+    /*margin: 0 auto;
+    background-color: cadetblue;*/
     opacity: 0.75;
 }
 
 nav a{
     text-decoration: none;
-    position: relative;
     padding: 14px 18px;
     font-size: 20pt;
-    color: black;
+    color: white;
 }
 
 nav a:hover{
@@ -38,12 +37,18 @@ nav a:hover{
 }
 
 .paragraph {
-    /*
-    height: 800px;
-    width: auto;
-    background-image: url('images/World_Scout_Movement.png');
-    */
+    background-image: url('images/image2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1920px;
+    width: 100%;
+
     position: relative;
-    top: 80px;
+}
+
+.paragraph p {
+    display: inline-block;
+    position: relative;
     right: 20px;
+    color: azure;
 }
