@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
     font-family: 'Almarai', sans-serif;
     text-align: right;
     font-size: 16pt;
@@ -14,26 +14,24 @@ body {
 
 nav{
     overflow: hidden;
-    width: 462px;
     margin-left: auto;
-    /*margin: 0 auto;
-    background-color: cadetblue;*/
+    /*
+    width: 500px;
+    margin: 0 auto;
+    background-color: cadetblue;
+    */
     opacity: 0.75;
 }
 
 nav a{
     text-decoration: none;
     padding: 14px 18px;
-    font-size: 20pt;
+    font-size: 1.5rem;
     color: white;
 }
 
 nav a:hover{
     background-color: rgb(125, 57, 204);
-}
-
-#logo {
-
 }
 
 .paragraph {
@@ -51,4 +49,10 @@ nav a:hover{
     position: relative;
     right: 20px;
     color: azure;
+}
+
+@media only screen and (min-width: 480px) {
+    nav a {
+      font-size: 2.5rem;
+    }
 }

@@ -1,4 +1,4 @@
-const text = document.getElementById('heading');
+const text = document.querySelector('footer');
 
 function main() {
     text.style.color = 'blue';
