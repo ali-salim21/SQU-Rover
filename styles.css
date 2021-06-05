@@ -35,10 +35,10 @@ nav a:hover{
 }
 
 .paragraph {
-    display: inline-block;
     background-image: url('images/image2.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 1920px;
     width: 100%;
 
